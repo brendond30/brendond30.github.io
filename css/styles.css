@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+html {
+    background-color: #1C1C1C;
+}
+
+/* Fonts */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.125rem;
+}
+
+p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.063rem;
+}
+
+p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 300;
+}
+
+/* Modifiers */
+
+.font-white {
+    color: #EDEDED;
+}
+
+.font-accent {
+    color: #D80058;
+}
+
+.margin-top-large {
+    margin-top: 14.063rem;
+}
+
+.margin-bottom-large {
+    margin-bottom: 14.063rem;
+}
+
+.margin-top-medium {
+    margin-top: 7.5rem;
+}
+
+.margin-bottom-medium {
+    margin-bottom: 7.5rem;
+}
+
+.margin-bottom-small {
+    margin-bottom: 1.438rem;
+}
+
+.margin-top-small {
+    margin-top: 1.438rem;
+}
+
+/* Styles */
+
+a, href {
+    text-decoration: none;
+}
+
+/* Navbar */
+
+#navbar {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+}
+
+/* Hero */
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
+    align-items: center;
+}
+
+.btn-main-accent {
+    padding: 0.75rem 1rem;
+    background-color: #D80058;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.btn-main-accent:hover {
+    background-color: #ff0f6f;
+}
+
+/* Portfolio */
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-left: 18.75rem;
+    padding-right: 18.75rem;
+    align-items: center;
+    background-color: #D80058;
+}
+
+.btn-main-white {
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 2px solid #EDEDED;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.btn-main-white:hover {
+    background-color: #EDEDED;
+}
+
+/* About */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    padding-left: 18.75rem;
+    padding-right: 18.75rem;
+    align-items: center;
+    background-color: #1C1C1C;
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.438rem;
+    padding-bottom: 1.438rem;
+    padding-left: 18.75rem;
+    padding-right: 18.75rem;
+    background-color: #D80058;
+}
+
+#footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
+}
+
+#footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 18.75rem;
+    margin-right: 18.75rem;
+}
+
+.footer-item {
+    padding: 0.5rem 0.75rem;
+}
