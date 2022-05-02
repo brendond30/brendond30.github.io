@@ -94,6 +94,16 @@ a, href {
     color: var(--accentdark);
 }
 
+.border-sides {
+    border-color: var(--contrast);
+    border-width: 0px 2px;
+    border-style: solid;
+}
+
+.margin-top-small {
+    margin-top: 15px;
+}
+
 /*Navigation*/
 #navigation {
     display: flex;
@@ -253,6 +263,32 @@ a, href {
     background-image: url('/images/thumbnails/Room_Design2BD.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/*Grades*/
+#gradecontainer {
+    padding: 5% 17.5%;
+    margin: 0 0 2%;
+    background-color: var(--accentdark);
+    background-image: url('/images/bg-images/BGRA.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gradewrap {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.gradecard {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gradetext {
+    text-align: start;
 }
 
 /*Footer*/
