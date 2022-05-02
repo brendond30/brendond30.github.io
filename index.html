@@ -4,60 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="/javascript/javascript.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Home Page | Brendon Dale Designs</title>
+    <link rel="stylesheet" href="css/style-index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav id="navbar">
+    <nav id="navigation">
         <div id="nav-l">
-            <a href="#" class="nav-logo"><img src="/images/logo.png" alt="logo"></a>
+            <a href="index.html"><img src="images/logo.svg" alt="Brendon Dale Designs Logo" class="navlogo"></a>
         </div>
         <div id="nav-r">
-            <a href="#" class="nav-item"><p1 class="semi-bold font-white">Portfolio</p1></a>
-            <a href="#" class="nav-item"><p1 class="semi-bold font-white">About</p1></a>
-            <a href="#" class="nav-item"><p1 class="semi-bold font-white">Contact</p1></a>
+            <a href="portfolio.html" class="navitems"><p1 class="semibold">Portfolio</p1></a>
+            <a href="about.html" class="navitems"><p1 class="semibold">About</p1></a>
+            <a href="contact.html" class="navitems"><p1 class="semibold">Contact</p1></a>
         </div>
     </nav>
-
     <section id="hero">
-        <h1 class="bold font-white margin-top-large margin-bottom-small">Hello, my name's Brendon!</h1>
-        <p2 class="regular font-white margin-bottom-small">I’m a Web Designer and Developer based in the United States.</p2>
-        <button class="btn-main-accent margin-bottom-large"><p1 class="semi-bold font-white">Get in touch</p1></button>
+        <div id="herowrap">
+            <h1 class="heroheader">Hello, my name's Brendon!</h1>
+            <p1 class="herosubheader">I’m a Web Designer and Developer based in the United States.</p1>
+            <a href="contact.html" id="button1"><p1 class="semibold">Get in touch</p1></a>
+        </div>
     </section>
-
     <section id="portfolio">
-        <h1 class="medium font-white margin-bottom-small">Here's some of my work</h1>
-        <div id="portfolio-preview" class="margin-bottom-small">
-            <a href="#"><img src="/images/portfolio-piece-one.png" alt="portfolio piece 1"></a>
-            <a href="#"><img src="/images/portfolio-piece-two.png" alt="portfolio piece 2"></a>
-            <a href="#"><img src="/images/portfolio-piece-one.png" alt="portfolio piece 3"></a>
+        <div id="portfoliowrap">
+            <h1 id="thumbnailheader" class="semibold">Here’s some of my work</h1>
+            <div id="thumbnailcontainer">
+                <a href="images/full-size/poster.png" target="_"><img src="images/thumbnails/PosterT.png" alt="Graphic design poster" class="thumbnailsmall"></a>
+                <a href="images/full-size/3dassetstore.png" target="_"><img src="images/thumbnails/3DAssetStoreT.png" alt="3D asset website" class="thumbnailsmall"></a>
+                <a href="images/full-size/roomdesign1.png" target="_"><img src="images/thumbnails/Room_Design1T.png" alt="3D modeled desk setup" class="thumbnailsmall"></a>
+            </div>
+            <a href="portfolio.html" id="button2"><p1 class="semibold">See more</p1></a>
         </div>
-        <button class="btn-main-white"><p1 class="semi-bold font-white">See more</p1></button>
     </section>
-
     <section id="about">
-        <h1 class="medium font-white margin-bottom-small">Here's some of my work</h1>
-        <p2 class="regular font-white margin-bottom-small">Like I said in the begining, I’m a Web Designer and Developer based in the United States.<br>
-            In my free time I enjoy long walks on the beach, and sipping a martini by the pool. Ok ok,<br>
-            jokes aside, I’m a student at Lewis & Clark Community College and if all goes well I’ll be<br>
-            graduating this year. When I’m not designing, I’m probably playing video games or<br>
-            watching a show on netflix. Now that you know a bit about me, I hope I can get to know<br>
-            you a bit aswell.</p2>
-        <button class="btn-main-white"><p1 class="semi-bold font-white">Still interested?</p1></button>
-    </section>
-
-    <section id="footer">
-        <div id="footer-top">
-            <a href="#" class="footer-item"><p1 class="semi-bold font-white">Portfolio</p1></a>
-            <a href="#" class="footer-item"><p1 class="semi-bold font-white">About</p1></a>
-            <a href="#" class="footer-item"><p1 class="semi-bold font-white">Contact</p1></a>
-        </div>
-        <div id="footer-bottom">
-            <p2 class="regular font-white footer-item">Email: brendond30@outlook.com</p2>
-            <p2 class="regular font-white footer-item">Phone: (XXX)-XXX-XXXX</p2>
+        <div id="aboutwrap">
+            <h1 id="aboutheader" class="semibold">A bit about me</h1>
+            <p1 id="abouttext">	Like I said in the begining, I’m a Web Designer and Developer based in the United States.
+                In my free time I enjoy long walks on the beach, and sipping a martini by the pool. Ok ok,
+                jokes aside, I’m a student at Lewis & Clark Community College and if all goes well I’ll be
+                graduating this year. When I’m not designing, I’m probably playing video games or
+                watching a show on netflix. Now that you know a bit about me, I hope I can get to know
+                you a bit aswell.</p1>
+            <a href="contact.html" id="button1"><p1 class="semibold">Still interested?</p1></a>
         </div>
     </section>
+    <footer id="footer">
+        <div id="footertop">
+            <a href="portfolio.html" class="footeritems"><p1 class="semibold">Portfolio</p1></a>
+            <a href="about.html" class="footeritems"><p1 class="semibold">About</p1></a>
+            <a href="contact.html" class="footeritems"><p1 class="semibold">Contact</p1></a>
+        </div>
+        <div id="footerbottom">
+            <p2 class="footerinfo">Email: brendond30@outlook.com</p2>
+            <p2 class="footerinfo">Phone: (618)-419-1020</p2>
+        </div>
+    </footer>
 </body>
 </html>
