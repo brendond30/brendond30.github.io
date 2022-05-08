@@ -265,6 +265,18 @@ a, href {
     background-repeat: no-repeat;
 }
 
+#t10 {
+    background-image: url('/images/thumbnails/SunsetClockBD.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#t11 {
+    background-image: url('/images/thumbnails/RangoBD.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*Grades*/
 #gradecontainer {
     padding: 5% 17.5%;
