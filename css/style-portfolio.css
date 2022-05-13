@@ -212,7 +212,7 @@ a, href {
 }
 
 #t1 {
-    background-image: url('/images/thumbnails/BusinessCardBD.png');
+    background-image: url('/images/thumbnails/BusinesscardBD.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -277,7 +277,7 @@ a, href {
     background-repeat: no-repeat;
 }
 
-/*Grades*/
+/*Grades
 #gradecontainer {
     padding: 5% 17.5%;
     margin: 0 0 2%;
@@ -302,7 +302,7 @@ a, href {
 .gradetext {
     text-align: start;
 }
-
+*/
 /*Footer*/
 #footer {
     padding: 25px 30%;
